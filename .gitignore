@@ -1,0 +1,15 @@
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Large or regenerable files
+models/distilbert_out/
+models/distilbert_final/
+models/app_passage_emb.npy
+data/raw/
+data/processed/*.npy
+
+# Collected user data
+data/feedback.csv
+data/sus_responses.csv
